@@ -1,0 +1,22 @@
+WARNING:werkzeug:2024-05-10 17:07:47,897,  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug:2024-05-10 17:07:47,897,  * Running on http://192.168.1.107:3111/ (Press CTRL+C to quit)
+INFO:app:2024-05-10 17:07:55,535, Article "2020 CNCF Annual Report" retrieved!
+INFO:werkzeug:2024-05-10 17:07:55,541, 127.0.0.1 - - [10/May/2024 17:07:55] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:2024-05-10 17:07:55,560, 127.0.0.1 - - [10/May/2024 17:07:55] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:2024-05-10 17:08:09,604, 127.0.0.1 - - [10/May/2024 17:08:09] "GET /metrics HTTP/1.1" 200 -
+INFO:app:2024-05-10 17:08:16,843, A non-existing "11" article is accessed!
+INFO:werkzeug:2024-05-10 17:08:16,845, 127.0.0.1 - - [10/May/2024 17:08:16] "[33mGET /11 HTTP/1.1[0m" 404 -
+INFO:werkzeug:2024-05-10 17:08:16,862, 127.0.0.1 - - [10/May/2024 17:08:16] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:2024-05-10 17:08:38,777, "About Us" page is retrieved!
+INFO:werkzeug:2024-05-10 17:08:38,778, 127.0.0.1 - - [10/May/2024 17:08:38] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:2024-05-10 17:08:38,795, 127.0.0.1 - - [10/May/2024 17:08:38] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:2024-05-10 17:08:53,996, 127.0.0.1 - - [10/May/2024 17:08:53] "GET /create HTTP/1.1" 200 -
+INFO:werkzeug:2024-05-10 17:08:54,011, 127.0.0.1 - - [10/May/2024 17:08:54] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:2024-05-10 17:09:04,810, New article "hey" created!
+INFO:werkzeug:2024-05-10 17:09:04,811, 127.0.0.1 - - [10/May/2024 17:09:04] "[32mPOST /create HTTP/1.1[0m" 302 -
+INFO:werkzeug:2024-05-10 17:09:04,834, 127.0.0.1 - - [10/May/2024 17:09:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:2024-05-10 17:09:04,862, 127.0.0.1 - - [10/May/2024 17:09:04] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:2024-05-10 17:09:57,716, 127.0.0.1 - - [10/May/2024 17:09:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:2024-05-10 17:09:57,740, 127.0.0.1 - - [10/May/2024 17:09:57] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:2024-05-10 17:10:03,255, 127.0.0.1 - - [10/May/2024 17:10:03] "GET /metrics HTTP/1.1" 200 -
